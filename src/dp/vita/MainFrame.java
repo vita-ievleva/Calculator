@@ -14,26 +14,25 @@ public class MainFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.setTitle("Calculator");
-        frame.setLayout(new CardLayout());
-
-
-        for( int i = 0; i < 10; i++) {
-
-             frame.add( new JButton( "" + i) );
-
-        }
-
+        frame.setLayout(new BorderLayout());
 
         JButton button = new JButton("Button");
         JButton exit = new JButton("Exit");
+
         JTextField textBox = new JFormattedTextField();
+
         frame.add(textBox, BorderLayout.NORTH);
         exit.addActionListener(new ButtonListener());
         JPanel jPanel = new JPanel();
-        jPanel.setLayout(new GridLayout(2,1,5,5));
+      //  jPanel.setLayout(new GridLayout(2,1,5,5));
         jPanel.add(button);
         jPanel.add(exit);
-        frame.add(jPanel, BorderLayout.SOUTH);
+
+      for( int i = 0; i < 10; i++) {
+         jPanel.add( new JButton( "" + i) );
+        }
+
+        frame.add(jPanel);
         frame.pack();
         frame.setSize(250, 360);
 
