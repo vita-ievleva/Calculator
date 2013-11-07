@@ -1,4 +1,4 @@
-package dp.vita;
+package dp.vita.logic;
 
 /**
  * Created by admin on 25.10.13.

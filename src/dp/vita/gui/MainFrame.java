@@ -1,4 +1,4 @@
-package dp.vita;
+package dp.vita.gui;
 
 import javax.swing.*;
 import java.awt.*;

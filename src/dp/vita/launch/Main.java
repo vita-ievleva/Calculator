@@ -1,4 +1,7 @@
-package dp.vita;
+package dp.vita.launch;
+
+import dp.vita.logic.ConsoleInterface;
+import dp.vita.logic.ZeroDivideException;
 
 public class Main {
 

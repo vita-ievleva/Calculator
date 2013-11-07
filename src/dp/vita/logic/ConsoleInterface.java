@@ -1,4 +1,7 @@
-package dp.vita;
+package dp.vita.logic;
+
+import dp.vita.logic.Calculator;
+import dp.vita.logic.ZeroDivideException;
 
 import java.util.Scanner;
 

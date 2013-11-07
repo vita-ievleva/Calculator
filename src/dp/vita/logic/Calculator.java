@@ -1,4 +1,4 @@
-package dp.vita;
+package dp.vita.logic;
 
 /**
  * Написать класс калькулятор,
