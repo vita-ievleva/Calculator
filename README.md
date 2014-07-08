@@ -1,0 +1,4 @@
+Calculator
+==========
+
+Calculates mathematical expressions
