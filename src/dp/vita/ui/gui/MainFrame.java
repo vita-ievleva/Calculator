@@ -13,9 +13,11 @@ public class MainFrame {
     protected static final String[] ACTION_BUTTONS_NAMES = {"/", "*", "-", "+"};
     private static  JTextField textField;
 
-    CalculatorActionListener outerListener = new CalculatorActionListener();
+    CalculatorActionListener outerListener;
 
     public MainFrame() {
+
+        outerListener = new CalculatorActionListener();
         JFrame frame = new JFrame("Calculator");
         frame.setLayout(new BorderLayout());
         frame.setSize(600, 600);

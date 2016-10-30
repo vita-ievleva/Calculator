@@ -16,7 +16,7 @@ public class CalculatorActionListener  {
 
     class NumberListener implements ActionListener {
 
-        public NumberListener(JTextField textField) {
+         NumberListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
@@ -35,7 +35,7 @@ public class CalculatorActionListener  {
 
     class ActionsListener implements ActionListener {
 
-        public ActionsListener(JTextField textField) {
+         ActionsListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
@@ -52,7 +52,7 @@ public class CalculatorActionListener  {
 
     class PointerListener implements ActionListener {
 
-        public PointerListener(JTextField textField) {
+         PointerListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
@@ -67,7 +67,7 @@ public class CalculatorActionListener  {
 
     class DeleteSymbolListener implements ActionListener {
 
-        public DeleteSymbolListener(JTextField textField) {
+         DeleteSymbolListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
@@ -82,7 +82,7 @@ public class CalculatorActionListener  {
 
     class CleanListener implements ActionListener {
 
-        public CleanListener(JTextField textField) {
+         CleanListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
@@ -94,7 +94,7 @@ public class CalculatorActionListener  {
 
     class ResultListener implements ActionListener {
 
-        public ResultListener(JTextField textField) {
+         ResultListener(JTextField textField) {
             CalculatorActionListener.this.textField = textField;
         }
 
