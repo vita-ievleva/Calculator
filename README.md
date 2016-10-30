@@ -1,7 +1,4 @@
-Calculator
-==========
-<<<<<<< HEAD
-=======
+## Calculator
 
 Calculates mathematical expressions
->>>>>>> remotes/origin/master
+
