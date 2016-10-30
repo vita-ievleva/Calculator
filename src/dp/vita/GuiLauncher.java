@@ -1,4 +1,4 @@
-package dp.vita.launch;
+package dp.vita;
 
 import dp.vita.ui.gui.MainFrame;
 
